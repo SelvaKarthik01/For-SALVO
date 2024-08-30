@@ -1,0 +1,10 @@
+As part of this work i decided to build a simple neural network but also challenged myself to not import any modules but write it from scratch with the prior math knowledge using numpy and pandas
+29-08-2024 :
+=> Decided to take this MNIST Dataset from Kaggle to build a ann to predict the Nunber from the low resolution(28 x 28) image that gives you training examples(x,y) where x is the input features of 0 and 1 highlighting the pixel of the image and y is the label.
+30-08-2024:
+=> Started building the model by defining the functions like ReLu,softmax for multiclass classification, forward and back propogation had to revisit the math behind the back propogation steps 
+31-08-2024
+=> Completed Building the model and kept the learning rate = 0.1 and and performed 1000 iterations 
+/\ Test Accuracy ~ 88% even in dev set which indicates it generalizes really well
+
+....End of Project....
